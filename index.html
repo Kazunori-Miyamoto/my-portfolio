@@ -8,7 +8,24 @@
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
   </head>
+  <header>
+    <div class="header-title">宮本和徳です！　かず　と呼んでね！</div>
+    <h1>僕は柴犬が大好きです！</h1>
+    <h2>シゲにお肉をあげよう！</h2>
+  </header>
   <body>
+    <img
+      id="mypic"
+      onclick="slideshow()"
+      src="sige1.JPG"
+      width="500"
+      height="500"
+    />
+
+    <img id="mypic" src="manganiku.png" width="300" height="300" top="100" />
+    <input type="button" value="あげない" onclick="go_back()" />
+    <input type="button" value="あげちゃう" onclick="go_forward()" />
+
     <script src="main.js"></script>
   </body>
 </html>
